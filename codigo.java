@@ -5,14 +5,14 @@ import java.util.Scanner;
 #instrução3
 #...
 
-class CalculoIdade {
+class RenomearClasse {
 	public static void main(String args[]){
 		
-    String variavel;
+    		String variavel;
     
-    Scanner lerTeclado = new Scanner(System.in);
+    		Scanner lerTeclado = new Scanner(System.in);
 		
-    variavel = lerTeclado.nextInt();
+    		variavel = lerTeclado.nextInt();
 
 		System.out.print(variavel);
 		
