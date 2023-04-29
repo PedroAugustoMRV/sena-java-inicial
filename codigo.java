@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+#instrução1
+#instrução2
+#instrução3
+#...
+
 class CalculoIdade {
 	public static void main(String args[]){
 		
