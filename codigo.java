@@ -1,20 +1,25 @@
 import java.util.Scanner;
 
-#instrução1
-#instrução2
-#instrução3
-#...
+//instrução1
+//instrução2
+//instrução3
+//instrução4
+//instrução5
+//...
 
 class RenomearClasse {
-	public static void main(String args[]){
-		
-    		String variavel;
+  
+	public static void main(String args[]){  
+   
+    		Scanner teclado = new Scanner(System.in);
     
-    		Scanner lerTeclado = new Scanner(System.in);
-		
-    		variavel = lerTeclado.nextInt();
+    		double total = 0;
+        
+        total = teclado.nextDouble();
+    
+    		System.out.printf("%f", total); 
 
-		System.out.print(variavel);
+    		System.exit(0);
 		
 	}
 
